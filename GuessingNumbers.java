@@ -44,7 +44,10 @@ public class GuessingNumbers {
             if (decimal < randomInt) {
                 System.out.println("Too low");
             }                
+
             // Java tidak punya layout control. Tapi mengikuti block dan berdasarkan token. Tokennya itu adalah kurung kurawal.
+            // Bilangan desimal tidak bisa secara sempurna dicompare. Makanya harus integer.
+            // Jangan langsung dicompare, harus dicek dengan selisih
             else if (decimal == randomInt) {
                 System.out.println("Right!");
                 stillPlay = false;
