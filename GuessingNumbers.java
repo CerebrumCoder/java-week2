@@ -28,6 +28,10 @@ public class GuessingNumbers {
         int number1 = (int) (Math.random() * 10);
 
         // Pake nextInt() juga bisa
+
+        // java doc random (kalo mau liat docs tentang random di Java)
+        // pseudorandom, karena komputer belum bisa ngasih purely random. Dia mengacu time dan CPU clock
+        
         int randomInt = r.nextInt(100) + 1;
         System.out.println(randomInt);
 
@@ -39,12 +43,16 @@ public class GuessingNumbers {
             
             if (decimal < randomInt) {
                 System.out.println("Too low");
-            } else if (decimal > randomInt) {
-                System.out.println("Too High");
-            } else if (decimal == randomInt) {
+            }                
+            // Java tidak punya layout control. Tapi mengikuti block dan berdasarkan token. Tokennya itu adalah kurung kurawal.
+            else if (decimal == randomInt) {
                 System.out.println("Right!");
                 stillPlay = false;
             }
+            else if (decimal > randomInt) {
+                System.out.println("Too High");
+            }                
         }
+        input.close();
     }
 }
