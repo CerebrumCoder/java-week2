@@ -15,12 +15,21 @@ public class ForLoops {
         //     System.out.println("i is " + i);
         // }
 
-        int i=0; 
-        do {
-            System.out.println("i is " + i);
-            i++;
-        } while (i<10);
+        // int i=0; 
+        // do {
+        //     System.out.println("i is " + i);
+        //     i++;
+        // } while (i<10);
+        int i;
+        for (i=0; i<10; i++) {
+            System.out.println("i adalah " + i);
+        }
+        // for(int i = 0, j = 0; i < 10 && j < 10; i++, j+=2) {
+        //     System.out.println("nilai i = " + i);
+        //     System.out.println("nilai j = " + j);
+        // }
 
+        // Untuk java jangan kasih deklaratif, padahal java itu bahasa pemrograman imperatif.
 
     }
 }

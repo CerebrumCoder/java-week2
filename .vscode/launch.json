@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MonteCarloSimulation",
+            "request": "launch",
+            "mainClass": "MonteCarloSimulation",
+            "projectName": "java-week2_8194bc6d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ForLoops",
+            "request": "launch",
+            "mainClass": "ForLoops",
+            "projectName": "java-week2_8194bc6d"
+        },
+        {
+            "type": "java",
+            "name": "GuessingNumbers",
+            "request": "launch",
+            "mainClass": "GuessingNumbers",
+            "projectName": "java-week2_8194bc6d"
+        },
+        {
+            "type": "java",
+            "name": "Mendebug",
+            "request": "launch",
+            "mainClass": "Mendebug",
+            "projectName": "java-week2_8194bc6d"
+        },
+        {
+            "type": "java",
+            "name": "RepeatAdditionQuiz",
+            "request": "launch",
+            "mainClass": "RepeatAdditionQuiz",
+            "projectName": "java-week2_8194bc6d"
+        },
+        {
+            "type": "java",
+            "name": "SentinelValue",
+            "request": "launch",
+            "mainClass": "SentinelValue",
+            "projectName": "java-week2_8194bc6d"
+        },
+        {
+            "type": "java",
+            "name": "SubtractionQuizLoop",
+            "request": "launch",
+            "mainClass": "SubtractionQuizLoop",
+            "projectName": "java-week2_8194bc6d"
+        },
+        {
+            "type": "java",
+            "name": "TestSum",
+            "request": "launch",
+            "mainClass": "TestSum",
+            "projectName": "java-week2_8194bc6d"
+        }
+    ]
+}
