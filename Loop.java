@@ -11,7 +11,11 @@ $ git remote add origin https://github.com/OWNER/REPOSITORY.git
 5. "git push -u origin main" untuk push/masukin perubahan baru ke github link
  */
 
-public class HelloCSUI {
+/* "git branch" untuk ngasih tahu branch dan linknya
+* "git switch <nama-branch> untuk pindah branch"
+*/
+
+public class Loop {
     public static void main(String[] args) {
         System.out.println(2*5);
         System.out.println("Selamat Datang di DDP 2!");
