@@ -22,6 +22,12 @@ public class GuessingNumbers {
     public static void main(String[] args) {        
 
         Random r = new Random();
+
+        // Untuk random di bawah ini ada banyak caranya. Random menghasilkan nilai desimal
+        // 0 dan 1 dikali 10 jadinya range random antara 0 dan 9. 10 tdidak masuk
+        int number1 = (int) (Math.random() * 10);
+
+        // Pake nextInt() juga bisa
         int randomInt = r.nextInt(100) + 1;
         System.out.println(randomInt);
 
