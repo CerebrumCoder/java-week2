@@ -15,9 +15,26 @@ $ git remote add origin https://github.com/OWNER/REPOSITORY.git
 * "git switch <nama-branch> untuk pindah branch"
 */
 
-public class Loop {
-    public static void main(String[] args) {
-        System.out.println(2*5);
-        System.out.println("Selamat Datang di DDP 2!");
+import java.util.Scanner;
+
+public class RepeatAdditionQuiz {
+  public static void main(String[] args) {
+    int number1 = (int)(Math.random() * 10);
+    int number2 = (int)(Math.random() * 10);
+
+    // Create a Scanner
+    Scanner input = new Scanner(System.in);
+
+    System.out.print(
+      "What is " + number1 + " + " + number2 + "? ");
+    int answer = input.nextInt();
+    
+    while (answer != number1 + number2 ) {
+      System.out.print("Wrong answer. Try again. What is " 
+        + number1 + " + " + number2 + "? ");
+      answer = input.nextInt();
     }
+
+    System.out.println("You got it!");
+  }
 }
